@@ -70,7 +70,7 @@
 
 ## Where the work runs
 
-- Prefer the user's backend server for all video work (cutting, editing, rendering, encoding) over SSH, key login first; fall back to local only when no server address and credentials were given. Strictly minimise local resource use: everything except model work runs on the server; do not store large files locally and do not render or encode locally.
+- Execution location (user 2026-11-18): non-GPU work goes local first — cutting, editing, rendering and encoding run on the local VM by default; use the Windows server (2225) only when local resources are not enough. GPU work still goes to the server. The local VM has 1.5 CPU / 6GB memory, so a large render may still need the server, but the default for CPU-only work is local. This replaces the earlier "prefer the server for all video work" rule.
 - The server has no large models, so model work (image/video generation, narration synthesis) always stays local.
 - If the server connection fails, report it instead of silently falling back to local.
 
