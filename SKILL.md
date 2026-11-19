@@ -52,7 +52,7 @@
 
 - Send the finished video for user review and publish only after the user approves it and report only what you verified by measurement and what remains unverified.
 
-- Give every shot exactly one slow camera push or pull from 1.00 to about 1.04 to 1.06 and sample two frames 0.8 seconds apart in each shot and fix any shot with no pixel change.
+- Sample two frames 0.8 seconds apart in each shot and fix any shot with no pixel change. Do not add a camera push or pull to every shot — the slow push was only for the solar system video (user 2026-11-19); a static camera is the default and movement comes from the animated elements in the frame.
 
 - Give every shot a carrying image from its opening to its first cue and move any cue that would land inside the last 0.7 seconds of a shot.
 
@@ -110,7 +110,7 @@ Sources checked this week, with licences verified on the repo pages themselves:
 - **First-shot-first, then parallel build.** Build the full skeleton with placeholders, render only the first shot group (a ~30 s pilot, or the ~10–15 s trial clip for this series) and get the user's approval on the look before building the rest. Fixing the style at the pilot costs one group; fixing it after the full render costs every group.
 - **Segment-parallel rendering.** Render per shot and re-render only the changed shot plus its neighbours instead of re-rendering the whole film (video-talkcraft measured: a single-shot fix on a 201 s vertical took 53 s instead of a full re-render). Keep one shared dependency install per project (one `node_modules`, ~760 MB with headless browser) instead of one per episode.
 - **Text-only shots must carry a line drawing.** A shot that is only text gets an icon + box + arrow schematic as a companion picture; text never sits bare on the canvas. Every sentence must produce at least one visible change on screen.
-- **One slow camera move per scene, then stop.** Each scene keeps a single very slow push or pull plus a give-way move; idle micro-motion, ambient breathing and pulsing are off by default. A structurally static frame is a defect, not a style.
+- **Camera movement is decided per video, not a default.** The slow push or pull was only for the solar system video (user 2026-11-19) — do not add a camera move to every scene. A static camera is the default and movement comes from the animated elements in the frame. A frame with no movement at all is a defect, not a style. Idle micro-motion, ambient breathing and pulsing are off by default.
 - **Review in rounds, capped.** After the machine gates pass, do one independent review round, fix P0/P1, and deliver; further rounds only on request, capped at three total. Do not loop to perfection.
 - **Research discipline (Win-Hao).** Write the sourced article first with more candidate points than needed, then cut anything without a reliable source and report what was cut. Offer the user the choice of how many points to cover before writing copy.
 - **Do not import a repo's sample numbers.** vibe-knowledge-interactive's own README warns its sample films contain demonstrative values and disputed concepts — verify every number before it goes on screen, same as any other source.
