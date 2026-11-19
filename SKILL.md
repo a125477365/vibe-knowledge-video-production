@@ -42,6 +42,8 @@
 
 - Do not use a spelling trick inside a word to fix a tone and keep the approved voice and tone sample as the reference for the full narration.
 
+- Write every number and decimal in the narration out in Chinese characters (for example 零点五一秒 and 三十二倍, not 0.51 秒 or 32 倍) — the TTS misreads digits and decimals (user 2026-11-19: 0.51 was read as 零五十一). On-screen text stays as digits for readability; only the TTS input uses Chinese characters.
+
 - Synthesize narration in as few calls as you can while keeping each call reliable and keep one voice and one speed and add short crossfades between segments.
 
 - Measure silence and flag any gap longer than 1.2 seconds and check that no segment is truncated and anchor every sound effect to its naming word and keep music under the voice at minus 14 LUFS.
