@@ -52,6 +52,8 @@
 
 - Measure silence and flag any gap longer than 1.2 seconds and check that no segment is truncated and anchor every sound effect to its naming word and keep music under the voice at minus 14 LUFS.
 
+- **Background sound must be present but must not sound like noise.** The film needs an audible background bed so no second is silent (per-second background must stay above −45 dBFS), but the bed must not read as a hiss. Use brown noise (1/f² spectrum) at about −46 dBFS RMS — it sounds like a soft low rumble, not a hiss. **Do not use pink noise as the bed**: pink noise carries enough high-frequency energy to be heard as an audible "shhh" hiss in narration pauses, and the user will hear it as noise. Verify the bed by measuring its spectrum: the energy above 4 kHz must be far below the energy below 500 Hz.
+
 ## Check text and publish only after approval
 
 - Put no black background behind on screen text and use no punctuation in subtitles unless the user asked for it and keep labels inset from the frame edge by at least 140 pixels.
