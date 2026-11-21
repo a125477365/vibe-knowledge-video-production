@@ -56,6 +56,8 @@
 
 - Put no black background behind on screen text and use no punctuation in subtitles unless the user asked for it and keep labels inset from the frame edge by at least 140 pixels.
 
+- **Safe area: keep every on-screen element inside x 140–940 on a 1080-wide frame.** All text, formulas, counters, gauges, panels, labels and markers must stay within 140 px of both side edges — the right button column (like/comment/share) covers roughly x 950–1080, and the left edge must also keep 140 px clear. Nothing important below y 1650 (bottom caption zone). This applies to every element in every shot, not just labels: a formula centred at x=890 with a 330 px width reaches x=1055 and will be covered. Verify by measuring the pixel bounds of every text/counter/gauge/panel element in a sample frame from each shot — do not eyeball it.
+
 - Send the finished video for user review and publish only after the user approves it and report only what you verified by measurement and what remains unverified.
 
 - Douyin publish rules (user 2026-11-18/19): the title must not use 《》 book-title marks and must fit the 30-character limit; the cover must be manually chosen (Douyin's default cover is blank) and must carry text explanation — a plain picture frame is not acceptable, the cover needs the title/result text on it (make both a horizontal 4:3 and a vertical 3:4 text cover); topics must be selected via the # picker so they become linked topics in the description, not just typed as plain text. When editing a scheduled post, keep its identity and scheduled time unless the user asks to change them.
