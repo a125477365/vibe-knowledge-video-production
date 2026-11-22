@@ -176,7 +176,7 @@ Learn the method from a reference explainer video. Learn the method only — nev
 
 - **Voice.** The approved cloned voice (CosyVoice zero-shot, voice-ref.wav) is the standing voice for tech videos. Synthesize in chunks whose length is close to the prompt length (~50–60 chars ≈ 13 s) — CosyVoice warns when a chunk is much shorter than the prompt.
 
-- **Length and cadence.** Keep videos short — target ~5–6 minutes. Cadence: short videos one every 2 days, long videos one per week.
+- **Length and cadence.** Keep videos short — target ~5–6 minutes. Cadence: short videos one every 2 days, long videos one per week. **Orientation: short videos are vertical (9:16); long videos are horizontal (16:9)** (user 2026-11-22).
 
 - **Measured numbers, not cited numbers.** Benchmark the claims on the same machine before writing them into the script, and replace every cited number with the measured value.
 
