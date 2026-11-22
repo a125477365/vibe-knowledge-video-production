@@ -190,7 +190,7 @@ Learn the method from a reference explainer video. Learn the method only — nev
 
 - **Voice.** The approved cloned voice (CosyVoice zero-shot, voice-ref.wav) is the standing voice for tech videos. Synthesize in chunks whose length is close to the prompt length (~50–60 chars ≈ 13 s) — CosyVoice warns when a chunk is much shorter than the prompt.
 
-- **Length and cadence.** Keep videos short — target ~5–6 minutes. **Publish days (user 2026-11-22): every video publishes only on Monday, Wednesday or Friday, at 18:00** — short videos on that three-day rhythm, long videos one per week on one of those days. This replaces the earlier "short videos one every 2 days" rule: a video is never scheduled for Tuesday, Thursday, Saturday or Sunday, even if that would keep a strict two-day gap. **Orientation: short videos are vertical (9:16); long videos are horizontal (16:9)** (user 2026-11-22).
+- **Length and cadence.** Keep videos short — target ~5–6 minutes. **Publish days (user 2026-11-22): every video publishes only on Monday, Wednesday or Friday, at 18:00 — this applies to all videos, short and long, series episodes and one-offs alike.** Short videos follow that three-day rhythm; long videos publish one per week, on one of those three days. This replaces the earlier "short videos one every 2 days" rule: no video is ever scheduled for Tuesday, Thursday, Saturday or Sunday, even if that would keep a strict two-day gap. **Orientation: short videos are vertical (9:16); long videos are horizontal (16:9)** (user 2026-11-22).
 
 - **Measured numbers, not cited numbers.** Benchmark the claims on the same machine before writing them into the script, and replace every cited number with the measured value.
 
