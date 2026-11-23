@@ -186,6 +186,8 @@ Learn the method from a reference explainer video. Learn the method only — nev
 
 - **If the topic has no strong number contrast, open with a relatable everyday question instead.** Start from an experience the viewer has had, then lead it into the concept. This is the fallback, not the default: when a surprising number exists, the number opens the video.
 
+- **Do not use first-person immersive narrative in a knowledge video.** The viewer watches the diagram and follows the numbers; they are not a character inside the scene, and the video never pretends they are travelling through it. Immersive first-person storytelling belongs to a different kind of series with a different method — do not mix it into a knowledge video, even a long one.
+
 - **Hook-first applies to the video opening, not to the Douyin title.** The hook-first rule above governs the first seconds of the video. The Douyin title follows the topic-first rule in the Check text section: name the topic first, then the hook, so a viewer can tell what the video is about without opening it.
 
 - **Question-first framing.** When the film itself shows the other side winning sometimes, frame the hook as the question, not the assertion — a question beats an assertion when the film shows both sides winning.
