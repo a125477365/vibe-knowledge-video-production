@@ -112,6 +112,18 @@
 
 - If server work is needed (GPU work, or CPU work that local resources cannot handle) and the server connection fails, report it instead of silently falling back to local.
 
+## Supervise delegated work instead of waiting for it
+
+- Check every delegated agent every 5 minutes while its step runs and ask it for a progress report when it has been quiet.
+
+- Treat 15 minutes with no new output file, log line or progress report as stuck, not as slow work.
+
+- When a step looks stuck, check its output files and GPU use on the server directly instead of waiting for the agent to report.
+
+- Kill a stuck agent and run the step yourself or hand it to another agent, then note what stalled so the next run does not repeat it.
+
+- Report each finished step the moment its output exists and is verified, one step at a time, not only at the end of the batch.
+
 ## Available connectors
 
 - Use muse.connector_search to find other connectors and muse.skill_search to find related skills.
@@ -169,6 +181,10 @@ Sources checked this week, with licences verified on the repo pages themselves:
 Learn the method from a reference explainer video. Learn the method only — never copy the original video, footage, caption or script.
 
 - **Hook = conclusion first.** A surprising number + an unfair same-condition comparison + a visible speed difference, all within 3 seconds, no definition upfront.
+
+- **The opening pays off the cover.** The cover earned the click with one number or question — put that same number or question in the first 3 seconds, before any setup or background. A viewer who clicked for one number and meets a different opening first feels the video is not the one they clicked on, and leaves. The cover and the opening are one promise, not two.
+
+- **If the topic has no strong number contrast, open with a relatable everyday question instead.** Start from an experience the viewer has had, then lead it into the concept. This is the fallback, not the default: when a surprising number exists, the number opens the video.
 
 - **Hook-first applies to the video opening, not to the Douyin title.** The hook-first rule above governs the first seconds of the video. The Douyin title follows the topic-first rule in the Check text section: name the topic first, then the hook, so a viewer can tell what the video is about without opening it.
 
